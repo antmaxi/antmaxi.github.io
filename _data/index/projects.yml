@@ -46,13 +46,13 @@
 - name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
   i18n: EPFL
   url: https://drive.google.com/file/d/1iuO8_cKXmZLW9AwpK00WZ6xfsczqL0Yj/view?usp=sharing
-  img: /static/assets/img/landing/fil.png
+  img: /static/assets/img/landing/fil_small.png
   desc: Automatization and optimization of microscopy of cells.
 
 - name: Summer internship at ETH Zurich "Big microscopic data compression"
   i18n: ETH_Zurich
   url: https://www.dropbox.com/s/l9jz6ma0yqaznql/Poster_Maksimov.pdf?dl=0
-  img: /static/assets/img/landing/fish.png
+  img: /static/assets/img/landing/fish_small.png
   desc: Research of data compression for 3D temporal images of fish embryo development.
 
 
