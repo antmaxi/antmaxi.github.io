@@ -8,15 +8,34 @@
   img: /static/assets/img/landing/jekyll.png
   desc: This project is my project. I use Javascript to get repo's information all my repos have only one request.
 
-- name: Python
+- name: Semester thesis "Hierarchical Variational Inference for Federated Learning"
   i18n: cpython
   gh_user: python
   repo: cpython
   img: /static/assets/img/landing/python.png
   desc: This project is other's project. I use another request to get repo's information.
+  
+- name: Seminar in Robotics for CSE "GPU--based feature matching"
+  i18n: gpu
+  gh_user: antmaxi
+  repo: cpython
+  img: /static/assets/img/landing/python.png
+  desc: This project is other's project. I use another request to get repo's information.
 
-- name: Google
-  i18n: google
-  url: https://google.com
+- name: Bachelor thesis
+  i18n: bachelor
+  url: https://github.com/antmaxi/BSc_thesis
   img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  desc: Designed flexible pipeline of search of the most similar input biological ligands/targets/complexes in various databases.
+  
+- name: Summer internship at EPFL
+  i18n: EPFL
+  url: https://drive.google.com/file/d/1iuO8_cKXmZLW9AwpK00WZ6xfsczqL0Yj/view?usp=sharing
+  img: /static/assets/img/landing/epfl.png
+  desc: Automatization and optimization of microscopy of cells.
+  
+- name: Summer internship at ETH Zurich
+  i18n: ETH Zurich
+  url: https://www.dropbox.com/s/l9jz6ma0yqaznql/Poster_Maksimov.pdf?dl=0
+  img: /static/assets/img/landing/ethz.png
+  desc: Research of data compression for 3D temporal images of fish embryo development.
