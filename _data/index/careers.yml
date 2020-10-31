@@ -1,8 +1,8 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Master thesis
-    i18n: DS3 Lab, ETH Zurich
+    detail: Master thesis in DS3 Lab, ETH Zurich
+    i18n:  company_a
   desc:
     detail: I worked at Company A ...
     i18n: company_a_desc
@@ -16,29 +16,29 @@
   present: true
 
 - name:
-    detail: Master student, GPA 5.48/6.00
-    i18n: ETH Zurich
+    detail: MSc in Computational Science and Engineering ETH Zurich, GPA 5.48/6.00
+    i18n: company_b
   desc:
     detail: Robotics specialization - ML and AI courses. Receive scholarship from ETH.
     i18n: company_b_desc
   date:
-    detail: 
-    i18n: Since Sep. 2019
+    detail: Since Sep. 2019
+    i18n: company_b_date
   job:
-    detail: 
-    i18n: 
+    detail: Master of Science
+    i18n:  company_b_job
   icon: fa-plus-square
   
   - name:
-    detail: Bachelor student, GPA 4.96/5.00
-    i18n: MIPT
+    detail: BSc in Applied Mathematics and Physics, MIPT. GPA 4.96/5.00
+    i18n: company_c
   desc:
-    detail: Applied Mathematics and Physics with advanced Physics and incline towards  Bio- and Computational Physics
-    i18n: Moscow Institute of Physics and Technology
+    detail: Program at Moscow Institute of Physics and Technology with advanced Physics and incline towards  Bio- and Computational Physics
+    i18n: company_c_desc
   date:
-    detail: 
-    i18n: 2015 - 2019
+    detail: 2015 - 2019
+    i18n: company_c_date
   job:
-    detail: 
-    i18n: 
+    detail: Bachelor of Science
+    i18n: company_c_job
   icon: fa-plus-square
