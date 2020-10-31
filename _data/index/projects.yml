@@ -29,4 +29,30 @@
   repo: deep-learning-based-recommender-systems
   img: /static/assets/img/landing/shattered.png
   desc: Analyzed and compared different approaches to modern recommendation systems. My part was based on Graph Neural Network.
+  
+- name: Team project for the course 'Physically-based Simulation'
+  i18n: simulation
+  gh_user: antmaxi
+  repo: "ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019"
+  img: /static/assets/img/landing/shattered.png
+  desc: Physically-looking efficienly optimized on C++ simulation oft the boat floating on water waves.
+
+- name: Bachelor thesis 'Pipeline for search of off-target ligand connections'
+  i18n: bachelor
+  url: https://github.com/antmaxi/BSc_thesis
+  img: /static/assets/img/landing/shattered.png
+  desc: Designed flexible pipeline of search of the most similar input biological ligands/targets/complexes in various databases.
+
+- name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
+  i18n: EPFL
+  url: https://drive.google.com/file/d/1iuO8_cKXmZLW9AwpK00WZ6xfsczqL0Yj/view?usp=sharing
+  img: /static/assets/img/landing/fil.png
+  desc: Automatization and optimization of microscopy of cells.
+
+- name: Summer internship at ETH Zurich "Big microscopic data compression"
+  i18n: ETH_Zurich
+  url: https://www.dropbox.com/s/l9jz6ma0yqaznql/Poster_Maksimov.pdf?dl=0
+  img: /static/assets/img/landing/fish.png
+  desc: Research of data compression for 3D temporal images of fish embryo development.
+
 
