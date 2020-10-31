@@ -23,7 +23,7 @@
   img: /static/assets/img/landing/shattered.png
   desc: Implemented and analyzed GPU-based brute-force and hash matching, which are 80x faster than CPU. Literature review on the modern approaches for describing and matching images in computer vision
 
-  - name: Team project for the course "Deep Learning"
+- name: Team project for the course "Deep Learning" 
   i18n: dl_recommend
   gh_user: antmaxi
   repo: deep-learning-based-recommender-systems
