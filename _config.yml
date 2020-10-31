@@ -14,7 +14,7 @@ author:  # change following line to your infomation.
   name: antmaxi  # Be used at blog posts' author.
   first_name: Anton  # Be used at index page about me section.
   last_name: Maksimov  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar_small.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: antmaxi  # Leave blank if you don't have now
   linkedin_id: anton-maksimov-b5124b11a # Leave blank if you don't have now
   facebook_username: ant.maksimov  # Leave blank if you don't have now
