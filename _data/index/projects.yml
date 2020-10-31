@@ -7,6 +7,7 @@
   #repo: Jalpc
   img: /static/assets/img/landing/shattered.png
   desc: Ongoing
+  present: true
 
 - name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich
   i18n: hierarchical-variational
@@ -15,5 +16,11 @@
   img: /static/assets/img/landing/shattered.png
   desc: Implemented hierarchical Bayesian network on TensorFlow labeling handwritten digits using group-wise similarity
 
+- name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich
+  i18n: gpu
+  gh_user: antmaxi
+  repo: GPU-matching
+  img: /static/assets/img/landing/shattered.png
+  desc: Implemented and analyzed GPU-based brute-force and hash matching, which are 80x faster than CPU. Literature review on the modern approaches for describing and matching images in computer vision
 
 
