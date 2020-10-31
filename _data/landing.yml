@@ -33,6 +33,6 @@
 
 - id: links
   i18n: nav.link
-  name: Extra-curricular
+  name: Extra
   tpl: links.html
   css: contact
