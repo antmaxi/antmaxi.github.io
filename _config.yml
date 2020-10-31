@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-git
     - name: icon-shell
-  desc: I broadly interested in how the world and in particular technologies work. Previously immersed into maths, physics and biology, now I explore machine learning and artificial intelligence in general.
+  desc: I broadly interested in how work the technologies and the world in general. Previously being immersed into maths, physics and biology, now I explore machine learning and artificial intelligence as a whole.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
