@@ -1,13 +1,13 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "Anton's website"
   },
   "nav":{
     "home": "Home",
     "about_me": "About",
     "skills": "Skills",
     "projects": "Projects",
-    "career": "Career",
+    "career": "Education",
     "blog": "Blog",
     "link": "Link"
   },
@@ -25,7 +25,7 @@
     "familycode": "This is another project."
   },
   "career":{
-    "my_career": "My Career",
+    "my_career": "Education",
     "nextcode": "Nextcode",
     "nextcode_des": "Now I am in Nextcode and develop website with Python code for genetic analysis.",
     "nextcode_date": "Apr. 2016",
