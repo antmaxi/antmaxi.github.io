@@ -1,44 +1,30 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: "Master thesis in DS3 Lab, ETH Zurich"
-    i18n:  company_a
+    detail: Company A
+    i18n: company_a
   desc:
-    detail: Fraud detection using Graph Neural Networks
+    detail: I worked at Company A ...
     i18n: company_a_desc
   date:
-    detail: Since Oct. 2020
+    detail: Apr. 2016
     i18n: company_a_date
   job:
-    detail: 
+    detail: CTO
     i18n: company_a_job
   icon: fa-plus-square
   present: true
 
 - name:
-    detail: "MSc in Computational Science and Engineering ETH Zurich, GPA 5.48/6.00"
+    detail: Company B
     i18n: company_b
   desc:
-    detail: "Robotics specialization - ML and AI courses. Receive scholarship from ETH"
+    detail: I worked at Company B ...
     i18n: company_b_desc
   date:
-    detail: Since Sep. 2019
+    detail: Jun. 2015
     i18n: company_b_date
   job:
-    detail: Master of Science
-    i18n:  company_b_job
-  icon: fa-plus-square
-  
-  - name:
-    detail: "BSc in Applied Mathematics and Physics, MIPT. GPA 4.96/5.00"
-    i18n: company_c
-  desc:
-    detail: "Program at Moscow Institute of Physics and Technology with advanced Physics and incline towards  Bio- and Computational Physics"
-    i18n: company_c_desc
-  date:
-    detail: 2015 - 2019
-    i18n: company_c_date
-  job:
-    detail: Bachelor of Science
-    i18n: company_c_job
+    detail: Full Stack Developer
+    i18n: company_b_job
   icon: fa-plus-square
