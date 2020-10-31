@@ -1,10 +1,10 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: ETH Zurich
+    detail: MSc, ETH Zurich
     i18n: company_a
   desc:
-    detail: "MSc in Computational Science and Engineering , GPA 5.48/6.00"
+    detail: "Computational Science and Engineering, specialization in Robotics, GPA 5.48/6.00"
     i18n: company_a_desc
   date:
     detail: Since Sep. 2019
@@ -16,15 +16,16 @@
   present: true
 
 - name:
-    detail: Company B
+    detail: BSc, Moscow Institute of Physics and Technology
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: "Applied Mathematics and Physics with advanced program, GPA 4.96/5.00"
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: Sep. 2015 - Aug. 2019
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Bachelor of Science
     i18n: company_b_job
   icon: fa-plus-square
+  
