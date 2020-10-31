@@ -20,7 +20,7 @@
   i18n: gpu
   gh_user: antmaxi
   repo: GPU-matching
-  img: /static/assets/img/landing/shattered.png
+  img: /static/assets/img/landing/log_yx_query.png
   desc: Implemented and analyzed GPU-based brute-force and hash matching, which are 80x faster than CPU. Literature review on the modern approaches for describing and matching images in computer vision
 
 - name:  Team project "Deep Learning-based Recommendation Systems"  for the course Deep Learning
