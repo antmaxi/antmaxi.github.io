@@ -40,7 +40,7 @@
 - name: Bachelor thesis "Pipeline for search of off-target ligand connections"
   i18n: bachelor
   url: https://github.com/antmaxi/BSc_thesis
-  img: /static/assets/img/landing/shattered.png
+  img: /static/assets/img/landing/google.png
   desc: Designed flexible pipeline of search of the most similar input biological ligands/targets/complexes in various databases.
 
 - name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
