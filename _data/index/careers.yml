@@ -4,13 +4,13 @@
     detail: MSc, ETH Zurich
     i18n: company_a
   desc:
-    detail: "Computational Science and Engineering, specialization in Robotics, GPA 5.48/6.00"
+    detail: "Computational Science and Engineering, specialization in Robotics, "
     i18n: company_a_desc
   date:
     detail: Since Sep. 2019
     i18n: company_a_date
   job:
-    detail: Master of Science
+    detail: GPA 5.48/6.00
     i18n: company_a_job
   icon: fa-plus-square
   present: true
@@ -19,13 +19,13 @@
     detail: BSc, Moscow Institute of Physics and Technology
     i18n: company_b
   desc:
-    detail: "Applied Mathematics and Physics with advanced program, GPA 4.96/5.00"
+    detail: "Applied Mathematics and Physics with advanced program, specialization in Bio- and Computational Physics"
     i18n: company_b_desc
   date:
     detail: Sep. 2015 - Aug. 2019
     i18n: company_b_date
   job:
-    detail: Bachelor of Science
+    detail: GPA 4.96/5.00
     i18n: company_b_job
   icon: fa-plus-square
   
