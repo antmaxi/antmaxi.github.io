@@ -20,15 +20,15 @@ author:  # change following line to your infomation.
   facebook_username: ant.maksimov  # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: antmaxi@ya.ru  # Leave blank if you don't have now
-  cv: https://drive.google.com/file/d/1Qjp05muhTzZRQECW0ZVmznrx4Bk5ZqVp/view?usp=sharing  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: https://drive.google.com/file/d/1Ad82qz1UEaFhG2gpulQcjMtfMUBSxmHs/view?usp=sharing  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
+  - name: icon-python
+    - name: icon-cplusplus
   skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: I am a Master student at ETH Zurich since 2019. Currently I study machine learning and artificial intelligence, whilst Bachelor did in Applied Mathematics and Physics.  # Describe yourself.
+    - name: icon-git
+    - name: icon-shell
+  desc: I broadly interested in how the world and in particular technologies work. Previously immersed into maths, physics and biology, now I explore machine learning and artificial intelligence in general.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

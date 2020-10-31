@@ -1,17 +1,22 @@
 # links section data
-- last_name: Volunteer in "International internships" group
-  first_name:
-  desc: Responsible for check of documents (CV/cover letters)
+- last_name: Volunteer 
+  first_name: in "International internships" group (6K participants)
+  desc: Responsible for check of students' documents (CV/cover letters) since 2017
   website: https://vk.com/mipt_internships
 #  email: 
 
-- last_name: Teacher of olympiad physics and mathematics
-  first_name: 
-  desc: 
+- last_name: Teacher 
+  first_name: of olympiad physics and mathematics
+  desc: I teach schoolchildren since 2016
+  website: 
+ 
+- last_name: Science olympiads 
+  first_name: lover
+  desc: Awardee of many school olympiads up to International and all-Russian in physics, mathematics and economics
   website: 
   
-- last_name: Music lover and player
-  first_name: 
+- last_name: Music lover 
+  first_name: and player
   desc: Play button accordion (see records by the link), piano, violin and organ
   website: https://drive.google.com/drive/folders/18Ll-1lVONAQ7LtBxYwO-B20V80wUm3Nf?usp=sharing
 #  email: 
