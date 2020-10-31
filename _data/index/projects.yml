@@ -15,7 +15,7 @@
   img: /static/assets/img/landing/shattered.png
   desc: Implemented hierarchical Bayesian network on TensorFlow labeling handwritten digits using group-wise similarity
   
-- name: aaa
+- name: "Seminar in Robotics for CSE 'GPU--based feature matching' as collaboration between Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich"
   i18n: gpu
   gh_user: antmaxi
   repo: GPU-matching
