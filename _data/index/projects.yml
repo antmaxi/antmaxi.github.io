@@ -32,7 +32,7 @@
   - name: Team project for the course "Physically-based Simulation"
   i18n: simulation
   gh_user: antmaxi
-  repo: ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019
+  repo: "ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019"
   img: /static/assets/img/landing/shattered.png
   desc: Physically-looking efficienly optimized on C++ simulation oft the boat floating on water waves.
 
