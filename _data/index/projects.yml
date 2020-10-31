@@ -23,14 +23,14 @@
   img: /static/assets/img/landing/shattered.png
   desc: Implemented and analyzed GPU-based brute-force and hash matching, which are 80x faster than CPU. Literature review on the modern approaches for describing and matching images in computer vision
 
-- name:  "Deep Learning-based Recommendation Systems". Team project for the course "Deep Learning"
+- name:  "Deep Learning-based Recommendation Systems". Team project for the course Deep Learning
   i18n: dl_recommend
   gh_user: antmaxi
   repo: deep-learning-based-recommender-systems
   img: /static/assets/img/landing/ngcf.png
   desc: . Analyzed and compared different approaches to modern recommendation systems. My part was based on Graph Neural Network.
   
-- name: "Water boat". Team project for the course "Physically-based Simulation"
+- name: "Water boat". Team project for the course Physically-based Simulation
   i18n: simulation
   gh_user: antmaxi
   repo: "ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019"
