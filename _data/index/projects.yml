@@ -15,14 +15,14 @@
   img: /static/assets/img/landing/shattered.png
   desc: Implemented hierarchical Bayesian network on TensorFlow labeling handwritten digits using group-wise similarity
   
-- name: "GPU-based feature matching" - Seminar in Robotics for CSE. Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich
+- name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich
   i18n: gpu
   gh_user: antmaxi
   repo: GPU-matching
   img: /static/assets/img/landing/shattered.png
   desc: Implemented and analyzed GPU-based brute-force and hash matching, which are 80x faster than CPU. Literature review on the modern approaches for describing and matching images in computer vision
   
-  - name: Team project for the course "Deep Learning""
+  - name: Team project for the course "Deep Learning"
   i18n: dl_recommend
   gh_user: antmaxi
   repo: deep-learning-based-recommender-systems
