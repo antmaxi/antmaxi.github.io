@@ -9,50 +9,60 @@
   desc: Ongoing
   present: true
 
-- name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich
+- name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich, 2020
   i18n: hierarchical-variational
-  gh_user: antmaxi
-  repo: Hierarchical-Variational-Learning
+  url: https://github.com/antmaxi/Hierarchical-Variational-Learning
   img: /static/assets/img/landing/hierarchical.png
   desc: Implemented hierarchical Bayesian network on TensorFlow labeling handwritten digits using group-wise similarity
 
-- name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich
+- name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich, 2020
   i18n: gpu
-  gh_user: antmaxi
-  repo: GPU-matching
+  url: https://github.com/antmaxi/GPU-feature-matching
   img: /static/assets/img/landing/log_yx_query.png
-  desc: Implemented and analyzed GPU-based brute-force and hash matching, which are 80x faster than CPU. Literature review on the modern approaches for describing and matching images in computer vision
+  desc: Implemented and analyzed GPU-based feature matching (80x faster than CPU). Literature review on the modern approaches for describing and matching images in computer vision.
 
-- name:  Team project "Deep Learning-based Recommendation Systems"  for the course Deep Learning
+- name:  Team project "Deep Learning-based Recommendation Systems" for the course "Deep Learning", 2019
   i18n: dl_recommend
-  gh_user: antmaxi
-  repo: deep-learning-based-recommender-systems
+  #gh_user: antmaxi
+  #repo: 
+  url: https://github.com/antmaxi/deep-learning-based-recommender-systems
   img: /static/assets/img/landing/ngcf.png
-  desc: . Analyzed and compared different approaches to modern recommendation systems. My part was based on Graph Neural Network.
+  desc: Analyzed and compared different approaches to modern recommendation systems. My part was based on Graph Neural Network.
   
-- name: Team project "Water boat" for the course Physically-based Simulation
+- name: Team project "Waterboat" for the course "Physically-based Simulation", 2019
   i18n: simulation
-  gh_user: antmaxi
-  repo: "ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019"
+  url: https://github.com/antmaxi/ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019
   img: /static/assets/img/landing/water_boat.png
-  desc: Physically-looking efficiently optimized on C++ simulation of the boat floating on water waves.
+  desc: Physically-credible efficiently optimized on C++ simulation of the boat floating on water waves.
 
-- name: Bachelor thesis "Pipeline for search of off-target ligand connections"
+- name: Bachelor thesis "Pipeline for search of off-target ligand connections", 2019
   i18n: bachelor
   url: https://github.com/antmaxi/BSc_thesis
   img: /static/assets/img/landing/proteins.png
   desc: Designed flexible pipeline of search of the most similar input biological ligands/targets/complexes in various databases.
 
-- name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
+- name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction", 2018
   i18n: EPFL
   url: "https://drive.google.com/file/d/1iuO8_cKXmZLW9AwpK00WZ6xfsczqL0Yj/view?usp=sharing"
   img: /static/assets/img/landing/fil.png
   desc: Automatization and optimization of microscopy of cells.
 
-- name: Summer internship at ETH Zurich "Big microscopic data compression"
+- name: Summer internship at ETH Zurich "Big microscopic data compression", 2017
   i18n: ETH_Zurich
   url:  "https://www.dropbox.com/s/l9jz6ma0yqaznql/Poster_Maksimov.pdf?dl=0"
   img: /static/assets/img/landing/fish.png
   desc: Research of data compression for 3D temporal images of fish embryo development.
+
+- name: Linux- and C-based server, 2016
+  i18n: shooter
+  url:  
+  img: /static/assets/img/landing/server-client.png
+  desc: Server-client architecture where server performs Cron and parallel gzip operations on clients' requests
+  
+- name: 3D-shooter for the course "Computer Science", 2015
+  i18n: shooter
+  url:  https://github.com/antmaxi/MIPT-projects/tree/master/Shooter_CS_project
+  img: /static/assets/img/landing/snowman_cut.jpg
+  desc: Running in randomly generated labyrinth with stalking huge scary snowmen to be killed by throwing snowballs 
 
 
