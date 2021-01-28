@@ -5,8 +5,8 @@
     <description>Anton Maksimov's personal website</description>
     <link>http://localhost:4000/antmaxi.github.io/</link>
     <atom:link href="http://localhost:4000/antmaxi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2020 18:28:01 +0100</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2020 18:28:01 +0100</lastBuildDate>
+    <pubDate>Fri, 29 Jan 2021 00:10:16 +0500</pubDate>
+    <lastBuildDate>Fri, 29 Jan 2021 00:10:16 +0500</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -39,7 +39,7 @@ say_hello()   // &quot;hello world!&quot;
 
 &lt;p&gt;Side note comment: applied a bug fix similar to &lt;a href=&quot;https://github.com/Atlas7/atlas7.github.io/commit/6659f4a47f6ec66987adb0f683a9c6f3842252ae#diff-818954a41dbfb01af70050a459c603b9&quot;&gt;this commit&lt;/a&gt; to ensure code snippet does not collapse unexpectly upon clicking on it. This issue is tracked &lt;a href=&quot;https://github.com/jarrekk/Jalpc/issues/97&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 21 Dec 2017 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 21 Dec 2017 00:00:00 +0500</pubDate>
         <link>http://localhost:4000/antmaxi.github.io/html/2017/12/21/test-code-snippets.html</link>
         <guid isPermaLink="true">http://localhost:4000/antmaxi.github.io/html/2017/12/21/test-code-snippets.html</guid>
         
@@ -98,7 +98,7 @@ say_hello()   // &quot;hello world!&quot;
 
 &lt;p&gt;If you like this repository, I appreciate you star this repository. Please don’t hesitate to mail me or post issues on GitHub if you have any questions. Hope you have a happy blog time!😊&lt;/p&gt;
 </description>
-        <pubDate>Tue, 31 Jan 2017 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 31 Jan 2017 00:00:00 +0500</pubDate>
         <link>http://localhost:4000/antmaxi.github.io/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html</link>
         <guid isPermaLink="true">http://localhost:4000/antmaxi.github.io/html/2017/01/31/3-steps-to-setup-website-with-Jalpc.html</guid>
         
