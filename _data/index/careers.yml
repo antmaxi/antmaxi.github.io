@@ -1,19 +1,33 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: SWE, xorlab AG
+    i18n: company_c
+  desc:
+    detail: "Machine Learning (Python) and general Software Engineering (Java), "
+    i18n: company_c_desc
+  date:
+    detail: Since Nov. 2021
+    i18n: company_c_date
+  job:
+    detail: Leading ML development
+    i18n: company_c_job
+  icon: fa-plus-square
+  present: true
+
+- name:
     detail: MSc, ETH Zurich
     i18n: company_a
   desc:
     detail: "Computational Science and Engineering, specialization in Robotics, "
     i18n: company_a_desc
   date:
-    detail: Since Sep. 2019
+    detail: Sep. 2019 - Sep. 2021
     i18n: company_a_date
   job:
-    detail: GPA 5.48/6.00
+    detail: GPA 5.55/6.00
     i18n: company_a_job
-  icon: /static/assets/img/landing/epfl.png
-  present: true
+  icon: fa-plus-square #/static/assets/img/landing/ethz.png
 
 - name:
     detail: BSc, Moscow Institute of Physics and Technology

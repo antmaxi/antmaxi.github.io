@@ -1,13 +1,13 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Master thesis "Fraud detection in large-scale dynamic graph using Graph Neural Networks" in D3Slab of ETH Zurich
+- name: Master thesis "Hyperbolic Heterogeneous Graph Neural Networks" in D3Slab of ETH Zurich (prof. Ce Zhang)
   i18n: master
   #gh_user: jarrekk
   #repo: Jalpc
   img: /static/assets/img/landing/teufelchen.jpg
-  desc: Ongoing
-  present: true
+  desc: Explored ways for constructing Graph Neural Networks to work with the graph data having multiple node/relation
+    types while using advantages of the embeddings into hyperbolic space. Grade 5.5/6.
 
 - name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich, 2020
   i18n: hierarchical-variational

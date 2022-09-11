@@ -20,7 +20,7 @@ author:  # change following line to your infomation.
   facebook_username: ant.maksimov  # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: antmaxi@ya.ru  # Leave blank if you don't have now
-  cv: https://drive.google.com/drive/folders/1K8qyabKWPwe2bQk2076ZbZ60O_BWrDZ5?usp=sharing
+  cv: https://drive.google.com/drive/folders/1IuXr2XHsAcb0EFe_70Ct1PeSZV4zcFf-?usp=sharing
   #https://drive.google.com/file/d/1Ad82qz1UEaFhG2gpulQcjMtfMUBSxmHs/view?usp=sharing  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-git
     - name: icon-shell
-  desc: I broadly interested in how work the technologies and the world in general. Previously being immersed into maths, physics and biology, now I explore machine learning and artificial intelligence as a whole.
+  desc: I'm broadly interested in how the technologies work and untlimately - the world. Previously being immersed into maths, physics and biology, now I explore machine learning and artificial intelligence as a whole, not forgetting also to expose myself to music and long-waiting humanities (philosophy, sociology, psychology, ...).
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
