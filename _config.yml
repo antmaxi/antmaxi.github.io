@@ -16,7 +16,7 @@ author:  # change following line to your infomation.
   last_name: Maksimov  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: antmaxi  # Leave blank if you don't have now
-  linkedin_id: anton-maksimov-b5124b11a # Leave blank if you don't have now
+  linkedin_id: anton-maksimov # Leave blank if you don't have now
   facebook_username: ant.maksimov  # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: antmaxi@ya.ru  # Leave blank if you don't have now
