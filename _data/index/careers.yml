@@ -1,7 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: SWE, xorlab AG
+    detail: Machine Learning/Software Engineer, xorlab AG
     i18n: company_c
   desc:
     detail: "Machine Learning (Python) and general Software Engineering (Java), "
@@ -10,7 +10,7 @@
     detail: Since Nov. 2021
     i18n: company_c_date
   job:
-    detail: Leading ML development
+    detail: Leading ML development project from scratch to production
     i18n: company_c_job
   icon: fa-plus-square
   present: true
