@@ -13,7 +13,7 @@
     detail: Leading AI-trader development
     i18n: company_c_job
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: Machine Learning/Software Engineer, xorlab AG

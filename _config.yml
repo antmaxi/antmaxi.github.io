@@ -4,10 +4,10 @@
 title: antmaxi
 description: Anton Maksimov's personal website
 keywords: Jekyll, github, gh-pages
-baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+baseurl: "" # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://antmaxi.github.io # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /antmaxi.github.io/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -17,7 +17,7 @@ author:  # change following line to your infomation.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: antmaxi  # Leave blank if you don't have now
   linkedin_id: anton-maksimov # Leave blank if you don't have now
-  facebook_username: ant.maksimov  # Leave blank if you don't have now
+  facebook_username:  # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: antmaxi@pm.me # Leave blank if you don't have now
   cv: https://drive.google.com/drive/folders/1IuXr2XHsAcb0EFe_70Ct1PeSZV4zcFf-?usp=sharing
@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-git
     - name: icon-shell
-  desc: I'm broadly interested in how the technologies work and untlimately - the world. Previously being immersed into maths, physics and biology, now I explore machine learning and artificial intelligence as a whole, not forgetting also to expose myself to music and long-waiting humanities (philosophy, sociology, psychology, ...).
+  desc: I'm broadly interested in how the technologies work and ultimately - the world. Previously being immersed into maths, physics and biology, now I explore machine learning and artificial intelligence as a whole, not forgetting also to expose myself to music and long-waiting humanities (philosophy, sociology, psychology, ...).
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
