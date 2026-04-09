@@ -12,8 +12,6 @@
 - name: Master thesis "Hyperbolic Heterogeneous Graph Neural Networks" in D3Slab of ETH Zurich (prof. Ce Zhang)
   year: 2021
   i18n: master
-  #gh_user: jarrekk
-  #repo: Jalpc
   img: /static/assets/img/landing/Demonic surfer in a cosmic landscape.png
   desc: Explored ways for constructing Graph Neural Networks to work with the graph data having multiple node/relation
     types while using advantages of the embeddings into hyperbolic space - for tasks like fraud detection. Grade 5.5/6.
@@ -21,37 +19,39 @@
 - name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich
   year: 2020
   i18n: hierarchical-variational
-  url: https://github.com/antmaxi/Hierarchical-Variational-Learning
+  gh_user: antmaxi
+  repo: Hierarchical-Variational-Learning
   img: /static/assets/img/landing/hierarchical.png
   desc: Implemented hierarchical Bayesian network on TensorFlow labeling handwritten digits using group-wise similarity
 
 - name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich
   year: 2020
-  i18n: gpu
-  url: https://github.com/antmaxi/GPU-feature-matching
+  gh_user: antmaxi
+  repo: GPU-feature-matching
   img: /static/assets/img/landing/log_yx_query.png
   desc: Implemented and analyzed GPU-based feature matching (80x faster than CPU). Literature review on the modern approaches for describing and matching images in computer vision.
 
 - name: Team project "Deep Learning-based Recommendation Systems" for the course "Deep Learning"
   year: 2019
   i18n: dl_recommend
-  #gh_user: antmaxi
-  #repo: 
+  gh_user: antmaxi
+  repo: deep-learning-based-recommender-systems
   url: https://github.com/antmaxi/deep-learning-based-recommender-systems
   img: /static/assets/img/landing/ngcf.png
   desc: Analyzed and compared different approaches to modern recommendation systems. My part was based on Graph Neural Network.
   
 - name: Team project "Waterboat" for the course "Physically-based Simulation"
   year: 2019
-  i18n: simulation
-  url: https://github.com/antmaxi/ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019
+  gh_user: antmaxi
+  repo: ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019
+  #url: https://github.com/antmaxi/ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019
   img: /static/assets/img/landing/water_boat.png
   desc: Physically-credible efficiently optimized on C++ simulation of the boat floating on water waves.
 
 - name: Bachelor thesis "Pipeline for search of off-target ligand connections"
   year: 2019
-  i18n: bachelor
-  url: https://github.com/antmaxi/BSc_thesis
+  gh_user: antmaxi
+  repo: BSc_thesis
   img: /static/assets/img/landing/proteins.png
   desc: Designed flexible pipeline of search of the most similar input biological ligands/targets/complexes in various databases.
 
