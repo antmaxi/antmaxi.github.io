@@ -7,7 +7,7 @@
     "about_me": "About",
     "skills": "Skills",
     "projects": "Проекты",
-    "career": "Образование",
+    "career": "Опыт",
     "blog": "Blog",
     "link": "Хобби"
   },
@@ -26,7 +26,7 @@
     "familycode": "This is another project."
   },
   "career":{
-    "my_career": "Образование",
+    "my_career": "Опыт",
     "nextcode": "Nextcode",
     "nextcode_des": "Now I am in Nextcode and develop website with Python code for genetic analysis.",
     "nextcode_date": "Apr. 2016",
