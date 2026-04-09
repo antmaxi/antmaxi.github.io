@@ -16,6 +16,14 @@
   desc: Explored ways for constructing Graph Neural Networks to work with the graph data having multiple node/relation
     types while using advantages of the embeddings into hyperbolic space - for tasks like fraud detection. Grade 5.5/6.
 
+- name: Research Assistant project on geospatial big data analysis, KOF ETH Zurich
+  year: 2021
+  gh_user: antmaxi
+  repo: GIS_light
+  img: /static/assets/img/landing/light-map.png
+  desc: Setting up a pipeline to process light-map GeoTIff and communal borders' GIS (QGIS) data for economic analysis of the COVID-19 pandemic restrictions
+
+
 - name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich
   year: 2020
   i18n: hierarchical-variational
