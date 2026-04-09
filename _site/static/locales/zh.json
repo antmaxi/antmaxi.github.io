@@ -8,6 +8,7 @@
     "skills": "技能",
     "projects": "项目",
     "career": "职业",
+    "education": "教育",
     "blog": "博客",
     "link": "友情链接"
   },
@@ -27,22 +28,21 @@
   },
   "career":{
     "my_career": "职业生涯",
-    "nextcode": "Nextcode",
-    "nextcode_des": "现在我在Nextcode，使用Python为基因分析项目做网站.",
-    "nextcode_date": "2016年4月",
-    "nextcode_job": "Python工程师",
-    "netease": "网易游戏",
-    "netease_des": "在网易游戏，我了解到游戏体系，并使用Python代码为自动化运维服务.",
-    "netease_date": "2015年6月",
-    "netease_job": "运维开发工程师",
-    "ucloud": "Ucloud",
-    "ucloud_des": "在Ucloud,我开始和服务器、操作系统打交道，并使用shell脚本管理海量服务器.",
-    "ucloud_date": "2013年9月",
-    "ucloud_job": "运维开发工程师",
-    "college": "毕业",
-    "college_des": "2013年7月大学毕业，开始了IT职业生涯",
-    "college_date": "2013年7月",
-    "college_job": "学生"
+    "company_c": "Intellis AG / xorlab AG",
+    "company_c_des": "机器学习 / 软件工程",
+    "company_c_date": "2021年11月 - 2026年1月",
+    "company_c_job": "人工智能/机器学习工程师"
+  },
+  "education":{
+    "my_education": "教育背景",
+    "company_a": "ETH Zurich",
+    "company_a_des": "计算科学与工程",
+    "company_a_date": "2019年9月 - 2021年9月",
+    "company_a_job": "理学硕士",
+    "company_b": "MIPT",
+    "company_b_des": "应用数学与物理",
+    "company_b_date": "2015年9月 - 2019年8月",
+    "company_b_job": "理学学士"
   },
   "blog":{
     "my_blog": "我的博客"
