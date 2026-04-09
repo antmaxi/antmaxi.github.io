@@ -1,7 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: (Senior) AI Engineer, Intellis AG
+    detail: (Senior) AI Engineer, Intellis AG, Zug
     i18n: company_c
   desc:
     detail: "Machine Learning (Pytorch, Python)"
@@ -10,16 +10,16 @@
     detail: Nov. 2024 - Jan. 2026
     i18n: company_c_date
   job:
-    detail: Leading AI-trader development
+    detail: Leading AI-trader development - for prediction of prices of various assets
     i18n: company_c_job
   icon: fa-plus-square
   present: false
 
 - name:
-    detail: Machine Learning/Software Engineer, xorlab AG
+    detail: Machine Learning/Software Engineer, xorlab AG, Zurich
     i18n: company_c
   desc:
-    detail: "Machine Learning (Python) and general Software Engineering (Java), "
+    detail: "Machine Learning (Python) and general Software Engineering (Java) - for automatic spam/phishing email detection"
     i18n: company_c_desc
   date:
     detail: Nov. 2021 - Aug. 2024
