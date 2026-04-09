@@ -2,7 +2,7 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Telegram bot for book clubs
-  year: 2024
+  year: 2026
   i18n: book-club
   gh_user: antmaxi
   repo: book-club-bot
