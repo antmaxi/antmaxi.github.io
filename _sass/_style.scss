@@ -222,7 +222,7 @@ body.canvas-menu .nav-header {
   .nav > li {
     > a {
       padding: 15px 20px;
-      color: #676a6c;
+      color: #000;
     }
     a {
       &:focus, &:hover {
@@ -1001,7 +1001,7 @@ label.error {
 }
 
 .author-info {
-  color: #676a6c;
+  color: #444;
   font-size: 11px;
   margin-top: 5px;
 }
@@ -1135,6 +1135,7 @@ label.error {
   p {
     margin: 1em 0;
     line-height: 1.6;
+    color: #444;
   }
   .vertical-date {
     float: left;
@@ -1221,7 +1222,7 @@ body {
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #2f4050;
   font-size: 13px;
-  color: #676a6c;
+  color: #000;
   height: 100%;
 }
 
@@ -1793,7 +1794,7 @@ ul.clear-list:first-child {
 }
 
 .file-name small {
-  color: #676a6c;
+  color: #444;
 }
 
 .vote-icon, .vote-title {
@@ -1858,13 +1859,13 @@ ul.clear-list:first-child {
 
 .project-title a {
   font-size: 14px;
-  color: #676a6c;
+  color: #000;
   font-weight: 600;
 }
 
 .project-files li a {
   font-size: 11px;
-  color: #676a6c;
+  color: #444;
   margin-left: 10px;
   line-height: 22px;
 }
@@ -2015,7 +2016,7 @@ body {
     display: none;
   }
   &.landing-page {
-    color: #676a6c;
+    color: #000;
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     background-color: #fff;
   }
@@ -2366,7 +2367,7 @@ body {
     color: #3385FF;
   }
   p.text-color {
-    color: #676a6c;
+    color: #444;
   }
   a.navy-link {
     color: #3385FF;
@@ -2376,7 +2377,7 @@ body {
     }
   }
   section p {
-    color: #aeaeae;
+    color: #444;
     font-size: 13px;
   }
   h1 {
@@ -2415,7 +2416,7 @@ body {
     border-color: transparent;
     transition: all .3s ease-in-out 0s;
     .nav li a {
-      color: #fff;
+      color: #000;
       font-family: 'Open Sans', helvetica, arial, sans-serif;
       font-weight: 700;
       letter-spacing: 1px;
@@ -2431,11 +2432,11 @@ body {
     .navbar-nav > {
       .active > a {
         background: 0 0;
-        color: #fff;
+        color: #000;
         border-top: 6px solid #3385FF;
         &:hover {
           background: 0 0;
-          color: #fff;
+          color: #000;
           border-top: 6px solid #3385FF;
         }
       }
@@ -2447,12 +2448,12 @@ body {
       }
       .active > a:focus {
         background: 0 0;
-        color: #fff;
+        color: #000;
       }
     }
     &.navbar-scroll .navbar-nav > .active > a:focus {
       background: 0 0;
-      color: inherit;
+      color: #000;
     }
     .navbar-brand {
       &:focus, &:hover {
@@ -2471,7 +2472,7 @@ body {
     }
   }
   .navbar-scroll.navbar-default .nav li a {
-    color: #676a6c;
+    color: #000;
     &:hover {
       color: #3385FF;
     }
@@ -2797,7 +2798,7 @@ body {
         color: inherit;
       }
       .nav li a {
-        color: #676a6c;
+        color: #000;
         &:hover {
           color: #3385FF;
         }
