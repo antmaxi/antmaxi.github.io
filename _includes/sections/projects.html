@@ -14,6 +14,9 @@
                 </div>
                 <div class="col-sm-8 wow {% if loopindex == 1 %} fadeInRight {% else %} fadeInLeft {% endif %}">
                     <div class="team-member {% if loopindex == 1 %} text-left-sm {% else %} text-right-sm {% endif %}">
+                        {% if project.year %}
+                        <small><i>{{ project.year }}</i></small>
+                        {% endif %}
                         <h4>
                         {% if project.url %}
                         <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>

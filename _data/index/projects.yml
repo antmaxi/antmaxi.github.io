@@ -2,13 +2,15 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Telegram bot for book clubs
+  year: 2024
   i18n: book-club
   gh_user: antmaxi
   repo: book-club-bot
   img: /static/assets/img/landing/Robot reading in a cozy nook.png
   desc: Bot allowing users to add and vote on the books, with extended security and admin capabilities
 
-- name: Master thesis "Hyperbolic Heterogeneous Graph Neural Networks" in D3Slab of ETH Zurich (prof. Ce Zhang), 2021
+- name: Master thesis "Hyperbolic Heterogeneous Graph Neural Networks" in D3Slab of ETH Zurich (prof. Ce Zhang)
+  year: 2021
   i18n: master
   #gh_user: jarrekk
   #repo: Jalpc
@@ -16,19 +18,22 @@
   desc: Explored ways for constructing Graph Neural Networks to work with the graph data having multiple node/relation
     types while using advantages of the embeddings into hyperbolic space - for tasks like fraud detection. Grade 5.5/6.
 
-- name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich, 2020
+- name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich
+  year: 2020
   i18n: hierarchical-variational
   url: https://github.com/antmaxi/Hierarchical-Variational-Learning
   img: /static/assets/img/landing/hierarchical.png
   desc: Implemented hierarchical Bayesian network on TensorFlow labeling handwritten digits using group-wise similarity
 
-- name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich, 2020
+- name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich
+  year: 2020
   i18n: gpu
   url: https://github.com/antmaxi/GPU-feature-matching
   img: /static/assets/img/landing/log_yx_query.png
   desc: Implemented and analyzed GPU-based feature matching (80x faster than CPU). Literature review on the modern approaches for describing and matching images in computer vision.
 
-- name:  Team project "Deep Learning-based Recommendation Systems" for the course "Deep Learning", 2019
+- name: Team project "Deep Learning-based Recommendation Systems" for the course "Deep Learning"
+  year: 2019
   i18n: dl_recommend
   #gh_user: antmaxi
   #repo: 
@@ -36,37 +41,43 @@
   img: /static/assets/img/landing/ngcf.png
   desc: Analyzed and compared different approaches to modern recommendation systems. My part was based on Graph Neural Network.
   
-- name: Team project "Waterboat" for the course "Physically-based Simulation", 2019
+- name: Team project "Waterboat" for the course "Physically-based Simulation"
+  year: 2019
   i18n: simulation
   url: https://github.com/antmaxi/ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019
   img: /static/assets/img/landing/water_boat.png
   desc: Physically-credible efficiently optimized on C++ simulation of the boat floating on water waves.
 
-- name: Bachelor thesis "Pipeline for search of off-target ligand connections", 2019
+- name: Bachelor thesis "Pipeline for search of off-target ligand connections"
+  year: 2019
   i18n: bachelor
   url: https://github.com/antmaxi/BSc_thesis
   img: /static/assets/img/landing/proteins.png
   desc: Designed flexible pipeline of search of the most similar input biological ligands/targets/complexes in various databases.
 
-- name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction", 2018
+- name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
+  year: 2018
   i18n: EPFL
   url: "https://drive.google.com/file/d/1iuO8_cKXmZLW9AwpK00WZ6xfsczqL0Yj/view?usp=sharing"
   img: /static/assets/img/landing/fil.png
   desc: Automatization and optimization of microscopy of cells.
 
-- name: Summer internship at ETH Zurich "Big microscopic data compression", 2017
+- name: Summer internship at ETH Zurich "Big microscopic data compression"
+  year: 2017
   i18n: ETH_Zurich
   url:  "https://www.dropbox.com/s/l9jz6ma0yqaznql/Poster_Maksimov.pdf?dl=0"
   img: /static/assets/img/landing/fish.png
   desc: Research of data compression for 3D temporal images of fish embryo development.
 
-- name: Linux- and C-based server, 2016
+- name: Linux- and C-based server
+  year: 2016
   i18n: shooter
   url:  
   img: /static/assets/img/landing/server-client.png
   desc: Server-client architecture where server performs Cron and parallel gzip operations on clients' requests
   
-- name: 3D-shooter for the course "Computer Science", 2015
+- name: 3D-shooter for the course "Computer Science"
+  year: 2015
   i18n: shooter
   url:  https://github.com/antmaxi/MIPT-projects/tree/master/Shooter_CS_project
   img: /static/assets/img/landing/snowman_cut.jpg
