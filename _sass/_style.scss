@@ -4,6 +4,32 @@
   }
 }
 
+:root {
+  --bg-color: #2f4050;
+  --text-color: #ffffff;
+  --gray-bg: #3d4d5d;
+  --section-text: #e0e0e0;
+  --nav-bg: transparent;
+  --nav-text: #ffffff;
+  --nav-scroll-bg: #2f4050;
+  --nav-scroll-text: #ffffff;
+  --btn-white-bg: #3d4d5d;
+  --btn-white-border: #4d5d6d;
+}
+
+body.light-theme {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --gray-bg: #f4f4f4;
+  --section-text: #444444;
+  --nav-bg: transparent;
+  --nav-text: #000000;
+  --nav-scroll-bg: #ffffff;
+  --nav-scroll-text: #000000;
+  --btn-white-bg: #ffffff;
+  --btn-white-border: #e7eaec;
+}
+
 button.dim {
   text-transform: uppercase;
 }
@@ -609,8 +635,8 @@ button.dim {
 
 .btn-white {
   color: inherit;
-  background: #fff;
-  border: 1px solid #e7eaec;
+  background: var(--btn-white-bg);
+  border: 1px solid var(--btn-white-border);
   &.active {
     color: inherit;
     border: 1px solid #d2d2d2;
@@ -1120,7 +1146,8 @@ label.error {
 .vertical-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #fff;
+  background: var(--bg-color);
+  border: 1px solid var(--gray-bg);
   border-radius: .25em;
   padding: 1em;
   &:after {
@@ -1220,9 +1247,9 @@ label.error {
 
 body {
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #2f4050;
+  background-color: var(--bg-color);
   font-size: 13px;
-  color: #000;
+  color: var(--text-color);
   height: 100%;
 }
 
@@ -1492,7 +1519,7 @@ code {
 }
 
 .contact-box, .light-navbar .navbar.navbar-static-top {
-  background-color: #fff;
+  background-color: var(--bg-color);
 }
 
 a.close-canvas-menu {
@@ -2016,9 +2043,9 @@ body {
     display: none;
   }
   &.landing-page {
-    color: #000;
+    color: var(--text-color);
     font-family: 'Open Sans', helvetica, arial, sans-serif;
-    background-color: #fff;
+    background-color: var(--bg-color);
   }
 }
 
@@ -2367,7 +2394,7 @@ body {
     color: #3385FF;
   }
   p.text-color {
-    color: #444;
+    color: var(--section-text);
   }
   a.navy-link {
     color: #3385FF;
@@ -2377,7 +2404,7 @@ body {
     }
   }
   section p {
-    color: #444;
+    color: var(--section-text);
     font-size: 13px;
   }
   h1 {
@@ -2408,15 +2435,15 @@ body {
   }
   .navbar-default {
     &.navbar-scroll {
-      background-color: #fff;
-      border-color: #fff;
+      background-color: var(--nav-scroll-bg);
+      border-color: var(--nav-scroll-bg);
       padding: 15px 0;
     }
-    background-color: transparent;
+    background-color: var(--nav-bg);
     border-color: transparent;
     transition: all .3s ease-in-out 0s;
     .nav li a {
-      color: #000;
+      color: var(--nav-text);
       font-family: 'Open Sans', helvetica, arial, sans-serif;
       font-weight: 700;
       letter-spacing: 1px;
@@ -2432,11 +2459,11 @@ body {
     .navbar-nav > {
       .active > a {
         background: 0 0;
-        color: #000;
+        color: var(--nav-text);
         border-top: 6px solid #3385FF;
         &:hover {
           background: 0 0;
-          color: #000;
+          color: var(--nav-text);
           border-top: 6px solid #3385FF;
         }
       }
@@ -2471,8 +2498,8 @@ body {
       transition: all .3s ease-in-out 0s;
     }
   }
-  .navbar-scroll.navbar-default .nav li a {
-    color: #000;
+    .navbar-scroll.navbar-default .nav li a {
+      color: var(--nav-scroll-text);
     &:hover {
       color: #3385FF;
     }
@@ -2620,7 +2647,7 @@ body {
     padding: 20px 0;
   }
   .gray-section {
-    background: #f4f4f4;
+    background: var(--gray-bg);
     margin-top: 60px;
   }
   .flex-row {
@@ -2791,14 +2818,14 @@ body {
     }
     .navbar-default {
       background-color: transparent;
-      border-color: #fff;
+      border-color: var(--text-color);
       padding: 15px 0;
       .navbar-nav > .active > a:focus {
         background: 0 0;
         color: inherit;
       }
       .nav li a {
-        color: #000;
+        color: var(--text-color);
         &:hover {
           color: #3385FF;
         }
@@ -2841,7 +2868,7 @@ body {
       display: block;
       float: none;
       .navbar-toggle {
-        background-color: #fff;
+        background-color: var(--bg-color);
         padding: 9px 10px;
         border: none;
       }

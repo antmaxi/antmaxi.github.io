@@ -36,6 +36,11 @@ permalink: /
             </a>
           </li>
           {% endfor %}
+          <li>
+            <a id="theme-toggle" class="btn btn-sm">
+              <i class="fa fa-moon-o" id="theme-toggle-icon"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -65,4 +70,28 @@ iframe {
   transform-origin: top left;
 }
 </style>
+
+<script>
+  $(document).ready(function() {
+    var themeToggle = $('#theme-toggle');
+    var themeIcon = $('#theme-toggle-icon');
+    
+    function updateIcon() {
+      if ($('body').hasClass('light-theme')) {
+        themeIcon.removeClass('fa-moon-o').addClass('fa-sun-o');
+      } else {
+        themeIcon.removeClass('fa-sun-o').addClass('fa-moon-o');
+      }
+    }
+
+    updateIcon();
+
+    themeToggle.click(function() {
+      $('body').toggleClass('light-theme');
+      var theme = $('body').hasClass('light-theme') ? 'light' : 'dark';
+      localStorage.setItem('theme', theme);
+      updateIcon();
+    });
+  });
+</script>
 <!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->

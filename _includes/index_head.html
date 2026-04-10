@@ -31,4 +31,13 @@
       enable_page_level_ads: true
     });
   </script>
+
+  <script>
+    (function() {
+      var savedTheme = localStorage.getItem('theme') || 'dark';
+      if (savedTheme === 'light') {
+        document.body.classList.add('light-theme');
+      }
+    })();
+  </script>
 </head>
