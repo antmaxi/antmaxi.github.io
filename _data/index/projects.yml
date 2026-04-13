@@ -1,6 +1,6 @@
 # projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+# If you don't have a language feature (language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit the following img items.
 - name: Telegram bot for book clubs
   year: 2026
   i18n: book-club
@@ -66,7 +66,8 @@
 - name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
   year: 2018
   i18n: EPFL
-  url: "https://drive.google.com/file/d/1iuO8_cKXmZLW9AwpK00WZ6xfsczqL0Yj/view?usp=sharing"
+  # TODO: missing link
+  #url: "https://drive.google.com/file/d/1iuO8_cKXmZLW9AwpK00WZ6xfsczqL0Yj/view?usp=sharing"
   img: /static/assets/img/landing/fil.png
   desc: Automatization and optimization of microscopy of cells.
 
