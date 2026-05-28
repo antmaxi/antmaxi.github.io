@@ -44,7 +44,7 @@
   i18n: dl_recommend
   gh_user: antmaxi
   repo: deep-learning-based-recommender-systems
-  url: https://github.com/antmaxi/deep-learning-based-recommender-systems
+  url: "https://github.com/antmaxi/deep-learning-based-recommender-systems"
   img: /static/assets/img/landing/ngcf.png
   desc: Analyzed and compared different approaches to modern recommendation systems. My part was based on Graph Neural Network.
   
@@ -66,15 +66,14 @@
 - name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
   year: 2018
   i18n: EPFL
-  # TODO: missing link
-  #url: "https://drive.google.com/file/d/1iuO8_cKXmZLW9AwpK00WZ6xfsczqL0Yj/view?usp=sharing"
+  url: "https://drive.proton.me/urls/WB7QW4TBBG#q5JSQIpy3KxP"
   img: /static/assets/img/landing/fil.png
   desc: Automatization and optimization of microscopy of cells.
 
 - name: Summer internship at ETH Zurich "Big microscopic data compression"
   year: 2017
   i18n: ETH_Zurich
-  url:  "https://www.dropbox.com/s/l9jz6ma0yqaznql/Poster_Maksimov.pdf?dl=0"
+  url:  "https://drive.proton.me/urls/TXZ33BFTE0#vuvMdU9cJyMm"
   img: /static/assets/img/landing/fish.png
   desc: Research of data compression for 3D temporal images of fish embryo development.
 
@@ -88,7 +87,7 @@
 - name: 3D-shooter for the course "Computer Science"
   year: 2015
   i18n: shooter
-  url:  https://github.com/antmaxi/MIPT-projects/tree/master/Shooter_CS_project
+  url:  "https://github.com/antmaxi/MIPT-projects/tree/master/Shooter_CS_project"
   img: /static/assets/img/landing/snowman_cut.jpg
   desc: Running in randomly generated labyrinth with stalking huge scary snowmen to be killed by throwing snowballs 
 
