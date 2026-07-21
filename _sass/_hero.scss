@@ -1,0 +1,192 @@
+// Landing page hero -- replaces the old Bootstrap carousel.
+//
+// The hero always renders as a dark band (photo + scrim) in both themes, so the
+// text on it is white regardless of --text-color. That keeps contrast fixed
+// instead of depending on which theme is active over a bright photograph.
+
+// NB: the theme sets `html { font-size: 10px }`, so 1rem = 10px here.
+// Sizes below are in px to avoid inheriting that surprise.
+$hero-scrim: #141c24;
+
+.landing-page .hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 82vh;
+  min-height: 82svh;
+  max-height: 760px;
+  padding: 120px 24px 96px;
+  overflow: hidden;
+  text-align: center;
+  isolation: isolate;
+
+  .hero-media {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba($hero-scrim, 0.78) 0%,
+        rgba($hero-scrim, 0.55) 45%,
+        rgba($hero-scrim, 0.80) 82%,
+        var(--bg-color) 100%
+      ),
+      url('/static/assets/img/landing/hero.jpg');
+    background-size: cover;
+    background-position: center 42%;
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba($hero-scrim, 0.78) 0%,
+          rgba($hero-scrim, 0.58) 45%,
+          rgba($hero-scrim, 0.82) 82%,
+          var(--bg-color) 100%
+        ),
+        url('/static/assets/img/landing/hero-small.jpg');
+    }
+  }
+
+  .hero-inner {
+    max-width: 704px;
+  }
+
+  .hero-eyebrow {
+    margin: 0 0 20px;
+    color: #8fbcff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  // Beats `.landing-page h1 { font-size: 30px; font-weight: 200 }`.
+  .hero-name {
+    margin: 0;
+    color: #fff;
+    font-size: clamp(44px, 8vw, 84px);
+    font-weight: 700;
+    line-height: 1.02;
+    letter-spacing: -0.03em;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .hero-tagline {
+    margin: 20px 0 0;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: clamp(17px, 2.2vw, 24px);
+    font-weight: 300;
+    line-height: 1.4;
+  }
+
+  .hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin: 40px 0 0;
+    padding: 0;
+    list-style: none;
+
+    li { margin: 0; }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;   // 44px keeps the tap target at the accessible minimum
+      height: 44px;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 50%;
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 17px;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.06);
+      transition: background-color 0.2s ease, border-color 0.2s ease,
+                  color 0.2s ease, transform 0.2s ease;
+
+      &:hover,
+      &:focus-visible {
+        background: #3385FF;
+        border-color: #3385FF;
+        color: #fff;
+        transform: translateY(-2px);
+      }
+
+      &:focus-visible {
+        outline: 2px solid #fff;
+        outline-offset: 3px;
+      }
+    }
+  }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 28px;
+    text-decoration: none;
+    animation: hero-bob 2.4s ease-in-out infinite;
+
+    &:hover,
+    &:focus-visible {
+      color: #fff;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: 3px;
+      border-radius: 50%;
+    }
+  }
+}
+
+@keyframes hero-bob {
+  0%, 100% { transform: translate(-50%, 0); }
+  50%      { transform: translate(-50%, 7px); }
+}
+
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .landing-page .hero {
+    .hero-eyebrow,
+    .hero-name,
+    .hero-tagline,
+    .hero-links {
+      animation: hero-rise 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
+    }
+    .hero-name    { animation-delay: 0.06s; }
+    .hero-tagline { animation-delay: 0.12s; }
+    .hero-links   { animation-delay: 0.18s; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-page .hero .hero-scroll {
+    animation: none;
+  }
+}
+
+// The first section used to sit under the carousel with its own top margin.
+.landing-page .hero + section {
+  margin-top: 0;
+}

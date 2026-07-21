@@ -1,0 +1,16 @@
+<header class="hero" id="hero">
+  <div class="hero-media" aria-hidden="true"></div>
+  <div class="hero-inner">
+    {% if site.author.location %}
+    <p class="hero-eyebrow">{{ site.author.location }}</p>
+    {% endif %}
+    <h1 class="hero-name">{{ site.author.first_name }} <span>{{ site.author.last_name }}</span></h1>
+    {% if site.author.tagline %}
+    <p class="hero-tagline">{{ site.author.tagline }}</p>
+    {% endif %}
+    {% include social_links.html class="hero-links" %}
+  </div>
+  <a class="hero-scroll page-scroll" href="#{{ site.data.landing[0].id }}" aria-label="Scroll to content">
+    <i class="fa fa-angle-down" aria-hidden="true"></i>
+  </a>
+</header>

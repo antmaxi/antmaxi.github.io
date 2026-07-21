@@ -7,7 +7,7 @@
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', '{{ site.ga.id }}', 'auto');
-    ga('require', '{{ site.go.id }}');
+    {% if site.go.id %}ga('require', '{{ site.go.id }}');{% endif %}
     ga('send', 'pageview');
 
   </script>

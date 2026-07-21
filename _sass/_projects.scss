@@ -1,0 +1,97 @@
+// Projects section -- replaces the old alternating-row Bootstrap layout
+// with a responsive card grid.
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--gray-bg);
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  }
+}
+
+.project-card-media {
+  aspect-ratio: 16 / 10;
+  background-color: rgba(128, 128, 128, 0.15);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px 22px 22px;
+}
+
+.project-card-year {
+  color: #3385FF;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.project-card-title {
+  margin: 6px 0 10px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: #3385FF;
+    }
+  }
+}
+
+.project-card-desc {
+  flex: 1;
+  margin: 0;
+  color: var(--section-text);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.project-card-stats {
+  display: flex;
+  gap: 14px;
+  margin-top: 16px;
+
+  .stat {
+    color: var(--section-text);
+    font-size: 12px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: #3385FF;
+    }
+
+    i {
+      margin-right: 4px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card {
+    transition: none;
+  }
+}

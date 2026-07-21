@@ -1,0 +1,72 @@
+// "Extra" section (volunteering, music, olympiads, ...) -- was a 3-column
+// Bootstrap row of centered blurbs; now a card grid matching the Projects
+// section's visual language, minus the thumbnail (this data has no image).
+
+.extras-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  align-items: start;
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.extra-card {
+  padding: 20px 22px 22px;
+  background: var(--gray-bg);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.extra-card-year {
+  display: block;
+  color: #3385FF;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.extra-card-title {
+  margin: 6px 0 10px;
+  color: var(--text-color);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.extra-card-desc {
+  color: var(--section-text);
+  font-size: 13px;
+  line-height: 1.6;
+
+  p {
+    margin: 0 0 0.8em;
+    color: inherit;
+    font-size: inherit;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    margin: 0 0 0.8em;
+    padding-left: 1.1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  li {
+    margin-bottom: 0.35em;
+  }
+
+  a {
+    color: #3385FF;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline;
+    }
+  }
+}

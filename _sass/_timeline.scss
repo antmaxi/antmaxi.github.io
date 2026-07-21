@@ -1,0 +1,91 @@
+// Career / education timeline -- a single left-aligned rail instead of the
+// old zig-zag Bootstrap layout, so it reads the same on every screen size
+// (no separate "center-orientation" breakpoint to maintain).
+//
+// Prefixed `resume-timeline-*` because `_data/landing.yml` already puts a
+// plain `timeline` class on the surrounding <section> (see `css: timeline`),
+// and the theme's dashboard leftovers define an unrelated `.timeline-item`.
+
+.resume-timeline {
+  position: relative;
+  max-width: 720px;
+  margin: 48px auto 0;
+  padding-left: 28px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    left: 5px;
+    width: 2px;
+    background: var(--gray-bg);
+  }
+}
+
+.resume-timeline-item {
+  position: relative;
+  padding-bottom: 40px;
+  text-align: left;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.resume-timeline-marker {
+  position: absolute;
+  top: 5px;
+  left: -28px;
+  width: 12px;
+  height: 12px;
+  background: var(--bg-color);
+  border: 2px solid #3385FF;
+  border-radius: 50%;
+
+  &.is-present {
+    background: #3385FF;
+    box-shadow: 0 0 0 4px rgba(51, 133, 255, 0.25);
+  }
+}
+
+.resume-timeline-date {
+  display: block;
+  margin-bottom: 6px;
+  color: #3385FF;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.resume-timeline-present-tag {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(51, 133, 255, 0.15);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.resume-timeline-title {
+  margin: 0 0 8px;
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.resume-timeline-desc {
+  margin: 0;
+  color: var(--section-text);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.resume-timeline-job {
+  margin: 8px 0 0;
+  color: var(--section-text);
+  font-size: 13px;
+  font-style: italic;
+  opacity: 0.85;
+}

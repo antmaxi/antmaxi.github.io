@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1; minimum-scale=1;">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta content="{{ site.description }}" name="description">
   <meta name="keywords" content="{{ site.keywords }}">
@@ -23,20 +23,11 @@
   <script src="{{"/static/assets/i18-20210315.min.js"| prepend: site.baseurl }}"></script>
   {% endif %}
 
-  <!-- Google AdSense -->
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-6196184620210315",
-      enable_page_level_ads: true
-    });
-  </script>
-
   <script>
     (function() {
       var savedTheme = localStorage.getItem('theme') || 'dark';
       if (savedTheme === 'light') {
-        document.body.classList.add('light-theme');
+        document.documentElement.classList.add('light-theme');
       }
     })();
   </script>

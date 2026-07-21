@@ -5,39 +5,34 @@
             <h1><span data-i18n="projects.my_projects">Projects</span></h1>
         </div>
     </div>
-    <div class="row features-block">
+    <div class="project-grid">
         {% for project in site.data.index.projects %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-            <div class="col-sm-12 flex-row {% if loopindex == 0 %} flex-reverse {% endif %} m-b-lg">
-                <div class="col-sm-2 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %} text-center">
-                    <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="" style="margin: auto;">
+        <div class="project-card wow fadeInUp">
+            {% if project.img %}
+            <div class="project-card-media" style="background-image: url('{{ project.img | prepend: site.baseurl }}');"></div>
+            {% endif %}
+            <div class="project-card-body">
+                {% if project.year %}
+                <span class="project-card-year">{{ project.year }}</span>
+                {% endif %}
+                <h3 class="project-card-title">
+                {% if project.url %}
+                <a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a>
+                {% elsif project.repo %}
+                <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank" rel="noopener">{{ project.name }}</a>
+                {% else %}
+                {{ project.name }}
+                {% endif %}
+                </h3>
+                <p class="project-card-desc"><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
+                {% if project.repo %}
+                <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn project-card-stats">
+                    <a target="_blank" rel="noopener" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers" class="stat star"><i class="fa fa-star" aria-hidden="true"></i> ...</a>
+                    <a target="_blank" rel="noopener" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network" class="stat fork"><i class="fa fa-code-fork" aria-hidden="true"></i> ...</a>
                 </div>
-                <div class="col-sm-8 wow {% if loopindex == 1 %} fadeInRight {% else %} fadeInLeft {% endif %}">
-                    <div class="team-member {% if loopindex == 1 %} text-left-sm {% else %} text-right-sm {% endif %}">
-                        {% if project.year %}
-                        <small><i>{{ project.year }}</i></small>
-                        {% endif %}
-                        <h4>
-                        {% if project.url %}
-                        <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
-                        {% elsif project.repo %}
-                        <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
-                        {% else %}
-                        <span class="navy">{{ project.name }}</span>
-                        {% endif %}
-                        </h4>
-                        <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
-                        {% if project.repo %}
-                        <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">
-                            <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
-                            <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
-                            <div style="height: 10px;"></div>
-                        </div>
-                        {% endif %}
-                    </div>
-                </div>
+                {% endif %}
             </div>
+        </div>
         {% endfor %}
     </div>
 </div>
-<br>

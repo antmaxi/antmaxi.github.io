@@ -46,9 +46,7 @@ permalink: /
     </div>
   </nav>
 </div>
-{% if site.index_carousel %}
-{% include carousel.html %}
-{% endif %}
+{% include hero.html %}
 
 {% for section in site.data.landing %}
 {% assign loopindex = forloop.index | modulo: 2 %}
@@ -75,9 +73,10 @@ iframe {
   $(document).ready(function() {
     var themeToggle = $('#theme-toggle');
     var themeIcon = $('#theme-toggle-icon');
-    
+    var root = document.documentElement;
+
     function updateIcon() {
-      if ($('body').hasClass('light-theme')) {
+      if (root.classList.contains('light-theme')) {
         themeIcon.removeClass('fa-moon-o').addClass('fa-sun-o');
       } else {
         themeIcon.removeClass('fa-sun-o').addClass('fa-moon-o');
@@ -87,8 +86,8 @@ iframe {
     updateIcon();
 
     themeToggle.click(function() {
-      $('body').toggleClass('light-theme');
-      var theme = $('body').hasClass('light-theme') ? 'light' : 'dark';
+      root.classList.toggle('light-theme');
+      var theme = root.classList.contains('light-theme') ? 'light' : 'dark';
       localStorage.setItem('theme', theme);
       updateIcon();
     });

@@ -17,13 +17,15 @@
   --btn-white-border: #4d5d6d;
 }
 
-body.light-theme {
+:root.light-theme {
   --bg-color: #ffffff;
   --text-color: #000000;
   --gray-bg: #f4f4f4;
   --section-text: #444444;
   --nav-bg: transparent;
-  --nav-text: #000000;
+  // Stays white: before the navbar picks up .navbar-scroll it sits over the
+  // hero photo, which is dark-scrimmed in both themes.
+  --nav-text: #ffffff;
   --nav-scroll-bg: #ffffff;
   --nav-scroll-text: #000000;
   --btn-white-bg: #ffffff;
@@ -1032,214 +1034,7 @@ label.error {
   margin-top: 5px;
 }
 
-.vertical-container {
-  width: 90%;
-  max-width: 1170px;
-  margin: 0 auto;
-  &::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-}
-
-#vertical-timeline {
-  position: relative;
-  padding: 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 18px;
-    height: 100%;
-    width: 4px;
-    background: #f1f1f1;
-  }
-}
-
-.vertical-timeline-content .btn {
-  float: right;
-}
-
-#vertical-timeline.light-timeline:before {
-  background: #e7eaec;
-}
-
-@media only screen and (min-width: 1170px) {
-  #vertical-timeline.center-orientation {
-    margin-top: 3em;
-    margin-bottom: 3em;
-    &:before {
-      left: 50%;
-      margin-left: -2px;
-    }
-  }
-}
-
-.vertical-timeline-block {
-  position: relative;
-  margin: 2em 0;
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  &:first-child {
-    margin-top: 0;
-  }
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-
-@media only screen and (min-width: 1170px) {
-  .center-orientation .vertical-timeline-block {
-    margin: 4em 0;
-    &:first-child {
-      margin-top: 0;
-    }
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-
-.vertical-timeline-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 16px;
-  border: 3px solid #f1f1f1;
-  i {
-    display: block;
-    width: 24px;
-    height: 24px;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    margin-left: -12px;
-    margin-top: -9px;
-  }
-}
-
-@media only screen and (min-width: 1170px) {
-  .center-orientation .vertical-timeline-icon {
-    width: 50px;
-    height: 50px;
-    left: 50%;
-    margin-left: -25px;
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    font-size: 19px;
-    i {
-      margin-left: -12px;
-      margin-top: -10px;
-    }
-  }
-}
-
-.vertical-timeline-content {
-  position: relative;
-  margin-left: 60px;
-  background: var(--bg-color);
-  border: 1px solid var(--gray-bg);
-  border-radius: .25em;
-  padding: 1em;
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  h2 {
-    font-weight: 400;
-    margin-top: 4px;
-  }
-  p {
-    margin: 1em 0;
-    line-height: 1.6;
-    color: #444;
-  }
-  .vertical-date {
-    float: left;
-    font-weight: 500;
-  }
-}
-
-.vertical-date small {
-  color: #3385FF;
-  font-weight: 400;
-}
-
-.vertical-timeline-content::before {
-  content: '';
-  position: absolute;
-  top: 16px;
-  right: 100%;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid #fff;
-}
-
-@media only screen and (min-width: 768px) {
-  .vertical-timeline-content {
-    h2 {
-      font-size: 18px;
-    }
-    p {
-      font-size: 13px;
-    }
-  }
-}
-
-@media only screen and (min-width: 1170px) {
-  .center-orientation {
-    .vertical-timeline-content {
-      margin-left: 0;
-      padding: 1.6em;
-      width: 45%;
-      &::before {
-        top: 24px;
-        left: 100%;
-        border-color: transparent transparent transparent #fff;
-      }
-      .btn {
-        float: left;
-      }
-    }
-    .vertical-timeline-block:nth-child(even) .vertical-timeline-content {
-      float: right;
-      .btn {
-        float: right;
-      }
-    }
-    .vertical-timeline-content .vertical-date {
-      position: absolute;
-      width: 100%;
-      left: 122%;
-      top: 2px;
-      font-size: 14px;
-    }
-    .vertical-timeline-block:nth-child(even) .vertical-timeline-content {
-      &::before {
-        top: 24px;
-        left: auto;
-        right: 100%;
-        border-color: transparent #fff transparent transparent;
-      }
-      .vertical-date {
-        left: auto;
-        right: 122%;
-        text-align: right;
-      }
-    }
-  }
-}
+// The vertical timeline (career/education) now lives in _sass/_timeline.scss.
 
 .slick-next:before, .slick-prev:before {
   color: #3385FF !important;
@@ -2825,7 +2620,11 @@ body {
         color: inherit;
       }
       .nav li a {
-        color: var(--text-color);
+        // var(--nav-text), not var(--text-color): the navbar sits transparently
+        // over the dark hero photo until scrolled, in both themes (see the
+        // --nav-text comment near the top of this file). Using --text-color
+        // here made mobile nav links invisible over the hero in light mode.
+        color: var(--nav-text);
         &:hover {
           color: #3385FF;
         }
@@ -2839,7 +2638,6 @@ body {
     }
     .nav > li > a {
       padding: 25px 10px 15px;
-      background-color: #dadada;
     }
     .navbar-nav > li > a {
       padding: 20px 10px;
@@ -2867,11 +2665,7 @@ body {
     .navbar .navbar-header {
       display: block;
       float: none;
-      .navbar-toggle {
-        background-color: var(--bg-color);
-        padding: 9px 10px;
-        border: none;
-      }
+      // Full toggle-button styling lives in _sass/_nav.scss.
     }
   }
 }

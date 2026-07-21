@@ -1,0 +1,94 @@
+// Mobile nav toggle + dropdown panel.
+//
+// Replaces Bootstrap's boxed gray hamburger and flat gray menu items with a
+// ghost icon that morphs into an X (uses the `aria-expanded` attribute
+// bootstrap.js already toggles -- no extra JS needed) and a floating,
+// blurred panel instead of a full-width gray strip.
+
+.navbar-toggle {
+  width: 44px;   // accessible tap-target minimum
+  height: 44px;
+  padding: 0;
+  background: transparent !important;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+
+  &:hover,
+  &:focus {
+    background: rgba(255, 255, 255, 0.12) !important;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #3385FF;
+    outline-offset: 2px;
+  }
+
+  .icon-bar {
+    background-color: var(--nav-text);
+    transition: transform 0.25s ease, opacity 0.2s ease, background-color 0.2s ease;
+  }
+
+  &[aria-expanded="true"] {
+    .icon-bar:nth-child(2) {
+      transform: translateY(6px) rotate(45deg);
+    }
+    .icon-bar:nth-child(3) {
+      opacity: 0;
+    }
+    .icon-bar:nth-child(4) {
+      transform: translateY(-6px) rotate(-45deg);
+    }
+  }
+}
+
+.navbar-scroll .navbar-toggle {
+  &:hover,
+  &:focus {
+    background: rgba(51, 133, 255, 0.1) !important;
+  }
+  .icon-bar {
+    background-color: var(--nav-scroll-text);
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar.navbar-collapse {
+    margin-top: 10px;
+    padding: 8px;
+    background: var(--nav-scroll-bg);
+    border-radius: 12px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.28);
+  }
+
+  #navbar .nav {
+    margin: 0;
+  }
+
+  #navbar .nav > li > a {
+    display: block;
+    padding: 12px 16px !important;
+    color: var(--nav-scroll-text) !important;
+    border-radius: 8px;
+    font-size: 14px;
+
+    &:hover,
+    &:focus {
+      background: rgba(51, 133, 255, 0.12) !important;
+      color: #3385FF !important;
+    }
+  }
+
+  #navbar .nav > li.active > a {
+    background: rgba(51, 133, 255, 0.12) !important;
+    color: #3385FF !important;
+    border-top: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-toggle,
+  .navbar-toggle .icon-bar {
+    transition: none;
+  }
+}

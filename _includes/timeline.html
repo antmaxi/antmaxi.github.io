@@ -1,0 +1,19 @@
+{% comment %}
+  Renders a vertical timeline. Pass `include.items` (a list from _data/index/*.yml)
+  and an `include.i18n_prefix` matching the keys used in those data files.
+{% endcomment %}
+<div class="resume-timeline">
+    {% for entry in include.items %}
+    <div class="resume-timeline-item wow fadeInUp">
+        <div class="resume-timeline-marker {% if entry.present %}is-present{% endif %}"></div>
+        <div class="resume-timeline-content">
+            <span class="resume-timeline-date"><span data-i18n="{{ include.i18n_prefix }}.{{ entry.date.i18n }}">{{ entry.date.detail }}</span>{% if entry.present %} <span class="resume-timeline-present-tag">Present</span>{% endif %}</span>
+            <h3 class="resume-timeline-title"><span data-i18n="{{ include.i18n_prefix }}.{{ entry.name.i18n }}">{{ entry.name.detail }}</span></h3>
+            <p class="resume-timeline-desc"><span data-i18n="{{ include.i18n_prefix }}.{{ entry.desc.i18n }}">{{ entry.desc.detail }}</span></p>
+            {% if entry.job.detail %}
+            <p class="resume-timeline-job"><span data-i18n="{{ include.i18n_prefix }}.{{ entry.job.i18n }}">{{ entry.job.detail }}</span></p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

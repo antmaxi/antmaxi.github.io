@@ -59,10 +59,10 @@ permalink: /donate/
                     <p><i class="fa fa-user"></i> {{ donation.account }}</p>
                     <p class="{{ donation.github }}"><i class="fa fa-map-marker"></i> Earth</p>
                     {% if donation.website %}
-                    <p><i class="fa fa-globe"></i> <a target="blank" href="{{ donation.website }}">Website</a></p>
+                    <p><i class="fa fa-globe"></i> <a target="_blank" rel="noopener" href="{{ donation.website }}">Website</a></p>
                     {% endif %}
                     {% if donation.github %}
-                    <p><i class="fa fa-github"></i> <a class="github_username {{ donation.github }}" target="blank" href="#">{{ donation.github }}</a></p>
+                    <p><i class="fa fa-github"></i> <a class="github_username {{ donation.github }}" target="_blank" rel="noopener" href="#">{{ donation.github }}</a></p>
                     {% endif %}
                     <p><i class="fa fa-calendar"></i> {{ donation.date | date: "%-d %b %Y" }}</p>
                 </div>

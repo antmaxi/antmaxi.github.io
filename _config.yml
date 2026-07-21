@@ -14,6 +14,8 @@ author:  # change following line to your infomation.
   name: antmaxi  # Be used at blog posts' author.
   first_name: Anton  # Be used at index page about me section.
   last_name: Maksimov  # Be used at index page about me section.
+  tagline: AI & Machine Learning Engineer  # one line shown under your name in the hero
+  location: Zurich, Switzerland  # small label above your name in the hero
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: antmaxi  # Leave blank if you don't have now
   linkedin_id: anton-maksimov # Leave blank if you don't have now
@@ -36,8 +38,11 @@ disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your c
 
 # analytics
 ## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: 251158775
+## Disabled: the theme ships Universal Analytics (analytics.js), which Google shut
+## down in July 2023 -- the old property 251158775 no longer collects anything.
+## To re-enable, migrate _includes/analytics.html to GA4 (gtag.js) and set a G-XXXXXXX id.
+# ga:
+#   id:
 
 ## google optimize
 go:
@@ -51,7 +56,7 @@ gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your 
 donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on  # index page carousel switch
+# The index page uses _includes/hero.html instead of a carousel now.
 blog_carousel: on  # blog page carousel switch
 
 # scss

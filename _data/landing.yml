@@ -41,4 +41,4 @@
   i18n: nav.link
   name: Extra
   tpl: links.html
-  css: contact
+  css:
