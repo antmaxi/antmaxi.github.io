@@ -13,6 +13,7 @@
   year: 2021
   i18n: master
   img: /static/assets/img/landing/thumbs/master-thesis.jpg
+  url: https://drive.proton.me/urls/B9Z4E5YDHC\#f0HyvDvCWWNr
   desc: Explored ways for constructing Graph Neural Networks to work with the graph data having multiple node/relation
     types while using advantages of the embeddings into hyperbolic space - for tasks like fraud detection. Grade 5.5/6.
 
@@ -44,7 +45,6 @@
   i18n: dl_recommend
   gh_user: antmaxi
   repo: deep-learning-based-recommender-systems
-  url: "https://github.com/antmaxi/deep-learning-based-recommender-systems"
   img: /static/assets/img/landing/thumbs/dl-recommender.jpg
   desc: Analyzed and compared different approaches to modern recommendation systems. My part was based on Graph Neural Network.
   
