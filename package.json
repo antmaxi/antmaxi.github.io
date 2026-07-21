@@ -24,7 +24,7 @@
     "colors": "^1.1.2",
     "components-font-awesome": "^4.7.0",
     "font-mfizz": "^2.4.1",
-    "jquery": "^3.6.0",
+    "jquery": "^4.0.0",
     "normalize.css": "^4.1.1",
     "wowjs": "^1.1.2"
   },
