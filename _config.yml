@@ -52,6 +52,11 @@ go:
 gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
   # id:
 
+## GoatCounter (privacy-friendly page-view analytics, https://www.goatcounter.com/)
+## Sign up for a free account, then set this to your site code (the part before
+## ".goatcounter.com" in the dashboard URL it gives you). Leave blank to disable.
+goatcounter: antmaxi
+
 ## donation
 donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
