@@ -152,6 +152,15 @@ OR
 
 Edit CSS files at `_sass` folder.
 
+**Note:** `package.json` is pinned to the exact versions currently compiled into
+`static/assets/app-*.min.{js,css}` (Bootstrap 3.4.1, jQuery 3.6.0, Chart.js 2.9.4,
+etc.) -- not necessarily the latest releases. If you bump a dependency here, you
+must also run `npm run build` and commit the regenerated bundle; otherwise the
+site keeps silently serving the old bundle while `package.json` claims a newer,
+likely API-incompatible version (this happened before: several Dependabot PRs
+bumped Bootstrap 3→5, jQuery 3→4, and Chart.js 2→4 here without ever
+regenerating the bundle, which would have broken every page had it been rebuilt).
+
 # Local tests/development
 
 First, install Jekyll on terminal:
