@@ -30,7 +30,8 @@
 - last_name: Founder and president of the Swiss Russian-speaking cultural and academic association "RuKAV"
   year: 2025 - now
   first_name:
-  img: icons/idea-2.png
+  img: icons/rukav_logo.png
+  logo: true
   desc: See [website](https://rukav-swiss.ch/en/) (developed mainly by me). Setting up the strategy, distributing tasks, organising meetings
   website: https://rukav-swiss.ch/en/
 
