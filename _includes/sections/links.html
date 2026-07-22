@@ -17,6 +17,9 @@
                     <span class="extra-card-year">{{ link.year }}</span>
                     {% endif %}
                     <h3 class="extra-card-title">{{ link.last_name }}{% unless link.first_name == blank %} {{ link.first_name }}{% endunless %}</h3>
+                    {% if link.org %}
+                    <span class="extra-card-org">{{ link.org }}</span>
+                    {% endif %}
                 </div>
             </div>
             <div class="extra-card-desc">{{ link.desc | markdownify }}</div>

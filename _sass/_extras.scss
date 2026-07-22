@@ -69,6 +69,21 @@
   line-height: 1.35;
 }
 
+// Pulls the organization name out as its own label instead of leaving it
+// buried inside the sentence-style title, for cards that clearly belong to
+// one named org (the ones with a real logo: Musikplattform, RuPR, RuKAV, MIPT).
+.extra-card-org {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: rgba(51, 133, 255, 0.15);
+  color: #3385FF;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .extra-card-desc {
   color: var(--section-text);
   font-size: 13px;

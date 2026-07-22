@@ -24,6 +24,9 @@
                 {{ project.name }}
                 {% endif %}
                 </h3>
+                {% if project.org %}
+                <span class="project-card-org">{{ project.org }}</span>
+                {% endif %}
                 <p class="project-card-desc"><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
                 {% if project.repo %}
                 <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn project-card-stats">

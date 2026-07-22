@@ -12,6 +12,7 @@
 - name: Master thesis "Hyperbolic Heterogeneous Graph Neural Networks" in D3Slab of ETH Zurich (prof. Ce Zhang)
   year: 2021
   i18n: master
+  org: ETH Zurich
   img: /static/assets/img/landing/thumbs/master-thesis.jpg
   url: https://drive.proton.me/urls/B9Z4E5YDHC\#f0HyvDvCWWNr
   desc: Explored ways for constructing Graph Neural Networks to work with the graph data having multiple node/relation
@@ -19,6 +20,7 @@
 
 - name: Research Assistant project on geospatial big data analysis, KOF ETH Zurich
   year: 2021
+  org: KOF ETH Zurich
   gh_user: antmaxi
   repo: GIS_light
   img: /static/assets/img/landing/thumbs/gis-light.jpg
@@ -28,6 +30,7 @@
 - name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich
   year: 2020
   i18n: hierarchical-variational
+  org: ETH Zurich
   gh_user: antmaxi
   repo: Hierarchical-Variational-Learning
   img: /static/assets/img/landing/thumbs/hierarchical-variational.jpg
@@ -35,6 +38,7 @@
 
 - name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich
   year: 2020
+  org: Sevensense Robotics AG & ETH Zurich
   gh_user: antmaxi
   repo: GPU-feature-matching
   img: /static/assets/img/landing/thumbs/gpu-feature-matching.jpg
@@ -66,6 +70,7 @@
 - name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
   year: 2018
   i18n: EPFL
+  org: EPFL
   url: "https://drive.proton.me/urls/WB7QW4TBBG#q5JSQIpy3KxP"
   img: /static/assets/img/landing/thumbs/epfl-internship.jpg
   desc: Automatization and optimization of microscopy of cells.
@@ -73,6 +78,7 @@
 - name: Summer internship at ETH Zurich "Big microscopic data compression"
   year: 2017
   i18n: ETH_Zurich
+  org: ETH Zurich
   url:  "https://drive.proton.me/urls/TXZ33BFTE0#vuvMdU9cJyMm"
   img: /static/assets/img/landing/thumbs/eth-internship.jpg
   desc: Research of data compression for 3D temporal images of fish embryo development.
