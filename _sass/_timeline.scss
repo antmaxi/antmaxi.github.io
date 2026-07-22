@@ -49,6 +49,28 @@
   }
 }
 
+.resume-timeline-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 4px;
+}
+
+.resume-timeline-logo {
+  flex-shrink: 0;
+  // Fixed, uniform box for every company/institute logo -- including square
+  // ones like xorlab's -- so they all read as the same size in the timeline
+  // instead of xorlab looking tiny next to the wider rectangular logos.
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+  // Source logos are a mix of transparent PNGs and opaque JPEGs with their
+  // own white background baked in -- a white card handles both correctly.
+  background: #fff;
+  border-radius: 6px;
+  padding: 6px;
+}
+
 .resume-timeline-date {
   display: block;
   margin-bottom: 6px;

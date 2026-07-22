@@ -12,7 +12,7 @@
   job:
     detail: Leading AI-trader development - for prediction of prices of various assets
     i18n: company_c_job
-  icon: fa-plus-square
+  logo: logos/intellis_logo.png
   present: false
 
 - name:
@@ -27,5 +27,5 @@
   job:
     detail: Leading ML development project from scratch to production
     i18n: company_c_job
-  icon: fa-plus-square
+  logo: logos/xorlab_logo.webp
   

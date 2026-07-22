@@ -12,7 +12,7 @@
   job:
     detail: GPA 5.55/6.00
     i18n: company_a_job
-  icon: fa-plus-square #/static/assets/img/landing/ethz.png
+  logo: logos/eth_logo.jpg
 
 - name:
     detail: BSc, Moscow Institute of Physics and Technology
@@ -26,4 +26,4 @@
   job:
     detail: GPA 4.96/5.00
     i18n: company_b_job
-  icon: fa-plus-square
+  logo: logos/mipt_logo.jpg

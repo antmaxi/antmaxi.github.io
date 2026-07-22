@@ -17,6 +17,41 @@
   text-align: left;
 }
 
+.extra-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.extra-card-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  // These are flat icons with transparent backgrounds designed for a light
+  // backdrop; the dial keeps them visible against --gray-bg in dark mode too.
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 6px;
+
+  // Real external logos (community/employer branding, not generic icons):
+  // sized by height with auto width (not forced into a square) so a wide
+  // logo isn't squeezed illegibly small -- but still gets the white backdrop
+  // like the generic icons, since e.g. Musikplattform's logo is transparent
+  // dark linework that needs a light background to read in dark mode.
+  // Bootstrap sets a global `* { box-sizing: border-box }`, which would make
+  // the inherited 6px padding eat into this 44px height (shrinking the logo
+  // to 32px) -- content-box here keeps padding purely additive, so the logo
+  // renders at the same 44px scale it did before the backdrop was added back.
+  &--logo {
+    box-sizing: content-box;
+    width: auto;
+    max-width: 96px;
+    height: 44px;
+  }
+}
+
 .extra-card-year {
   display: block;
   color: #3385FF;
@@ -25,7 +60,7 @@
 }
 
 .extra-card-title {
-  margin: 6px 0 10px;
+  margin: 6px 0 0;
   color: var(--text-color);
   font-size: 17px;
   font-weight: 600;

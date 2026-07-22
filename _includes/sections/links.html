@@ -8,10 +8,17 @@
     <div class="extras-grid">
     {% for link in site.data.index.links %}
         <div class="extra-card wow fadeInUp">
-            {% if link.year %}
-            <span class="extra-card-year">{{ link.year }}</span>
-            {% endif %}
-            <h3 class="extra-card-title">{{ link.last_name }}{% unless link.first_name == blank %} {{ link.first_name }}{% endunless %}</h3>
+            <div class="extra-card-header">
+                {% if link.img %}
+                <img class="extra-card-icon{% if link.logo %} extra-card-icon--logo{% endif %}" src="{{ '/static/assets/img/landing/' | prepend: site.baseurl }}{{ link.img }}" alt="">
+                {% endif %}
+                <div>
+                    {% if link.year %}
+                    <span class="extra-card-year">{{ link.year }}</span>
+                    {% endif %}
+                    <h3 class="extra-card-title">{{ link.last_name }}{% unless link.first_name == blank %} {{ link.first_name }}{% endunless %}</h3>
+                </div>
+            </div>
             <div class="extra-card-desc">{{ link.desc | markdownify }}</div>
         </div>
     {% endfor %}

@@ -36,6 +36,21 @@ button.dim {
   text-transform: uppercase;
 }
 
+// About section avatar. avatar.jpg isn't square (2142x1845), and the
+// theme's .img-responsive sets height:auto, which overrides the height="110"
+// attribute and lets the box follow the source aspect ratio -- so
+// .img-circle's border-radius:50% drew an oval, not a circle. Fixed size +
+// object-fit:cover keeps it a true 110x110 square regardless of source shape.
+.avatar-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  // The face itself sits a bit left of the source photo's geometric center
+  // (measured: head spans x=[589,1482] of 2142px, center at 48.3% not 50%),
+  // so the default centered crop cut it slightly off-center too.
+  object-position: 38% center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
 }
