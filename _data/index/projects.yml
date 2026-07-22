@@ -4,21 +4,22 @@
 - name: Telegram bot for book clubs
   year: 2026
   i18n: book-club
+  org: RuKAV/RuPR - Russian-speaking communities
   gh_user: antmaxi
   repo: book-club-bot
   img: /static/assets/img/landing/thumbs/book-club-bot.jpg
   desc: Bot allowing users to add and vote on the books, with extended security and admin capabilities
 
-- name: Master thesis "Hyperbolic Heterogeneous Graph Neural Networks" in D3Slab of ETH Zurich (prof. Ce Zhang)
+- name: Master thesis "Hyperbolic Heterogeneous Graph Neural Networks"
   year: 2021
   i18n: master
-  org: ETH Zurich
+  org: ETH Zurich (D3Slab, prof. Ce Zhang)
   img: /static/assets/img/landing/thumbs/master-thesis.jpg
   url: https://drive.proton.me/urls/B9Z4E5YDHC\#f0HyvDvCWWNr
   desc: Explored ways for constructing Graph Neural Networks to work with the graph data having multiple node/relation
     types while using advantages of the embeddings into hyperbolic space - for tasks like fraud detection. Grade 5.5/6.
 
-- name: Research Assistant project on geospatial big data analysis, KOF ETH Zurich
+- name: Research Assistant project on geospatial big data analysis
   year: 2021
   org: KOF ETH Zurich
   gh_user: antmaxi
@@ -27,18 +28,18 @@
   desc: Setting up a pipeline to process light-map GeoTIff and communal borders' GIS (QGIS) data for economic analysis of the COVID-19 pandemic restrictions
 
 
-- name: Semester thesis "Hierarchical Variational Inference for Federated Learning" in Information Science and Engineering Laboratory, ETH Zurich
+- name: Semester thesis "Hierarchical Variational Inference for Federated Learning"
   year: 2020
   i18n: hierarchical-variational
-  org: ETH Zurich
+  org: ETH Zurich (Information Science and Engineering Laboratory)
   gh_user: antmaxi
   repo: Hierarchical-Variational-Learning
   img: /static/assets/img/landing/thumbs/hierarchical-variational.jpg
   desc: Implemented hierarchical Bayesian network on TensorFlow labeling handwritten digits using group-wise similarity
 
-- name: Seminar in Robotics for CSE "GPU-based feature matching", Sevensense Robotics AG and Autonomous Systems Laboratory, ETH Zurich
+- name: Seminar in Robotics for CSE "GPU-based feature matching"
   year: 2020
-  org: Sevensense Robotics AG & ETH Zurich
+  org: Sevensense Robotics AG & ETH Zurich (Autonomous Systems Laboratory)
   gh_user: antmaxi
   repo: GPU-feature-matching
   img: /static/assets/img/landing/thumbs/gpu-feature-matching.jpg
@@ -46,6 +47,7 @@
 
 - name: Team project "Deep Learning-based Recommendation Systems" for the course "Deep Learning"
   year: 2019
+  org: ETH Zurich
   i18n: dl_recommend
   gh_user: antmaxi
   repo: deep-learning-based-recommender-systems
@@ -54,6 +56,7 @@
   
 - name: Team project "Waterboat" for the course "Physically-based Simulation"
   year: 2019
+  org: ETH Zurich
   gh_user: antmaxi
   repo: ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019
   #url: https://github.com/antmaxi/ETH-Zurich-projects/tree/master/Physically-based%20simulations%202019
@@ -67,7 +70,7 @@
   img: /static/assets/img/landing/thumbs/bsc-thesis.jpg
   desc: Designed flexible pipeline of search of the most similar input biological ligands/targets/complexes in various databases.
 
-- name: Summer internship at EPFL "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
+- name: Summer internship "Assessment, Optimization and Automatisation of Super-Resolution Microscopy Reconstruction"
   year: 2018
   i18n: EPFL
   org: EPFL
@@ -75,7 +78,7 @@
   img: /static/assets/img/landing/thumbs/epfl-internship.jpg
   desc: Automatization and optimization of microscopy of cells.
 
-- name: Summer internship at ETH Zurich "Big microscopic data compression"
+- name: Summer internship "Big microscopic data compression"
   year: 2017
   i18n: ETH_Zurich
   org: ETH Zurich
@@ -86,6 +89,7 @@
 - name: Linux- and C-based server
   year: 2016
   i18n: shooter
+  org: MIPT
   url:  
   img: /static/assets/img/landing/thumbs/linux-server.jpg
   desc: Server-client architecture where server performs Cron and parallel gzip operations on clients' requests
@@ -93,6 +97,7 @@
 - name: 3D-shooter for the course "Computer Science"
   year: 2015
   i18n: shooter
+  org: MIPT
   url:  "https://github.com/antmaxi/MIPT-projects/tree/master/Shooter_CS_project"
   img: /static/assets/img/landing/thumbs/shooter.jpg
   desc: Running in randomly generated labyrinth with stalking huge scary snowmen to be killed by throwing snowballs 
