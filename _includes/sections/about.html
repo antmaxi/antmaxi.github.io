@@ -12,7 +12,11 @@
         <div class="col-xs-2 wow fadeInLeft">
             <div class="team-member">
                 <div class="vote-icon" style="text-align: center">
+                    {% if icon.img %}
+                    <img class="vote-icon-img" src="{{ '/static/assets/img/landing/' | prepend: site.baseurl }}{{ icon.img }}" alt="{{ icon.name | default: 'PyTorch' }}">
+                    {% else %}
                     <i class="fa {{ icon.name }}"></i>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -28,7 +32,11 @@
         <div class="col-xs-2 wow fadeInRight">
             <div class="team-member">
                 <div class="vote-icon" style="text-align: center">
+                    {% if icon.img %}
+                    <img class="vote-icon-img" src="{{ '/static/assets/img/landing/' | prepend: site.baseurl }}{{ icon.img }}" alt="{{ icon.name | default: 'PyTorch' }}">
+                    {% else %}
                     <i class="fa {{ icon.name }}"></i>
+                    {% endif %}
                 </div>
             </div>
         </div>

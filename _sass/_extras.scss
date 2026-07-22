@@ -5,7 +5,9 @@
 .extras-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  align-items: start;
+  // Default (stretch): cards in the same row match the row's tallest card,
+  // instead of each sizing to its own content -- content length varies a lot
+  // here (the music card has a long bullet list, most others are one line).
   gap: 28px;
   margin-top: 40px;
 }

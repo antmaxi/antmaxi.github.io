@@ -15,6 +15,12 @@
   --nav-scroll-text: #ffffff;
   --btn-white-bg: #3d4d5d;
   --btn-white-border: #4d5d6d;
+  // Translucent instead of a solid tone matching --bg-color/--gray-bg: those
+  // two alternate as section backgrounds (see the gray-section modulo logic
+  // in index.html), so a solid rail color would go invisible against
+  // whichever one it happened to match (this is why it disappeared on the
+  // Career timeline specifically -- its section background IS --gray-bg).
+  --timeline-rail: rgba(255, 255, 255, 0.18);
 }
 
 :root.light-theme {
@@ -30,6 +36,7 @@
   --nav-scroll-text: #000000;
   --btn-white-bg: #ffffff;
   --btn-white-border: #e7eaec;
+  --timeline-rail: rgba(0, 0, 0, 0.18);
 }
 
 button.dim {
@@ -49,6 +56,16 @@ button.dim {
   // (measured: head spans x=[589,1482] of 2142px, center at 48.3% not 50%),
   // so the default centered crop cut it slightly off-center too.
   object-position: 38% center;
+}
+
+// PyTorch replaces the C++ font-mfizz glyph in the skill-icon row -- font-mfizz
+// has no PyTorch glyph, so this is an actual image instead of an <i class="fa">.
+// Sized/colored (#e8e9ea, baked into the SVG) to match the sibling font icons,
+// which get their size from .vote-icon's font-size:38px and color from its
+// color property -- neither of which apply to an <img>.
+.vote-icon-img {
+  width: 38px;
+  height: 38px;
 }
 
 h1, h2, h3, h4, h5, h6 {
