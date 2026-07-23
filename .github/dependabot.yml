@@ -1,7 +1,25 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
+  # NOTE: the npm ecosystem is intentionally NOT tracked here.
+  # These packages are never installed at build or run time -- the GitHub
+  # Pages deploy workflow only runs `bundle exec jekyll build`, and the site
+  # loads the pre-built minified bundle in static/assets/app-*.min.{js,css}.
+  # package.json just documents what that hand-regenerated bundle contains and
+  # is pinned to match it (see the note in README.md), so version bumps there
+  # change nothing live and would only recreate manifest/bundle drift.
+  #
+  # We instead track what actually runs in CI:
+
+  # Ruby gems Jekyll builds with (Gemfile: github-pages, webrick).
+  - package-ecosystem: bundler
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  # Third-party actions pinned in .github/workflows/jekyll.yml.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
